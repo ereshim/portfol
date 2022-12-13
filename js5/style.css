@@ -1,0 +1,10 @@
+.container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding-top: 5%;
+}
+.card {
+width: 25%;
+margin: 2%;
+}

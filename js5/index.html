@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Obeme-shop-admin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Addroduct</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ссылка</a>
+              </li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">
+              <button class="btn btn-outline-success" type="submit">Поиск</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+      <!-- modal -->
+      <!-- Кнопка-триггер модального окна -->
+
+  <!-- content -->
+  <div class="container">
+    <!-- <div class="card" style="width: 18rem;">
+        <img src="https://i.ytimg.com/vi/pVz9FvG-Wjk/hqdefault.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Название карточки</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-danger">Delete</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.ytimg.com/vi/pVz9FvG-Wjk/hqdefault.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Название карточки</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-danger">Delete</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="https://i.ytimg.com/vi/pVz9FvG-Wjk/hqdefault.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Название карточки</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-danger">Delete</a>
+        </div> -->
+      </div>
+  </div>
+  <!-- Модальное окно -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel" >Addproduct form</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+          <input type="url" name="" id="product-url-input" placeholder="Product img url">
+          <input type="text" name="" id="product-title-input" placeholder="Product title">
+          <input type="number" name="" id="product-price-input" placeholder="Product price">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+          <button type="button" class="btn btn-primary" id="add-product-btn">Add Product</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>
